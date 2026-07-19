@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bmc",
+    "code": "BMC",
+    "name": "Broadcast Monitoring Centre",
+    "band": "87.5–108 MHz",
+    "color": "#086AD8",
+    "summary": "24/7 spectrum and content monitoring across FM, TV and DTT platforms.",
+    "shiftBased": true,
+    "headId": "p05",
+    "onDuty": "Michael · 14:00–22:00",
+    "officialUrl": "https://nca.org.gh/licencing-and-authorisation/"
+  },
+  {
+    "id": "mobile",
+    "code": "MOB",
+    "name": "Mobile & Wireless Networks",
+    "band": "800–2600 MHz",
+    "color": "#3B8F8C",
+    "summary": "Cellular network authorisation, QoS drive tests, and ISP registration.",
+    "shiftBased": false,
+    "headId": "p06",
+    "onDuty": null,
+    "officialUrl": "https://nca.org.gh/mobile-cellular/"
+  },
+  {
+    "id": "broadcasting",
+    "code": "BRC",
+    "name": "Broadcasting Services",
+    "band": "470–694 MHz",
+    "color": "#C4503B",
+    "summary": "FM and TV station authorisation, renewals, and compliance inspection.",
+    "shiftBased": false,
+    "headId": "p07",
+    "onDuty": null,
+    "officialUrl": "https://nca.org.gh/radio-fm-broadcasting/"
+  },
+  {
+    "id": "satellite",
+    "code": "SAT",
+    "name": "Satellite & Space Services",
+    "band": "3.4–14.5 GHz",
+    "color": "#7A6FB3",
+    "summary": "Earth station licensing, satellite coordination and space filings.",
+    "shiftBased": false,
+    "headId": "p08",
+    "onDuty": null,
+    "officialUrl": "https://nca.org.gh/satellite-licences/"
+  }
+]

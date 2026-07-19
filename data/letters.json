@@ -1,0 +1,272 @@
+[
+  {
+    "id": "l01",
+    "title": "Frequency Authorisation Letter",
+    "division": "broadcasting",
+    "description": "Grants a broadcaster the right to operate on an assigned frequency with stated technical parameters.",
+    "approverId": "p01",
+    "approvalChain": ["p07", "p03", "p02", "p01"],
+    "refFormat": "NCA/ENG/BRC/FA/YYYY/###",
+    "officialUrl": "https://nca.org.gh/radio-fm-broadcasting/",
+    "format": {
+      "salutation": "Dear Sir/Madam,",
+      "subject": "AUTHORISATION TO OPERATE ON [FREQUENCY] MHZ — [STATION NAME]",
+      "bodyOutline": [
+        "Reference to the application and date received",
+        "Statement of authorisation with assigned frequency and location",
+        "Technical parameters: ERP, antenna height, polarisation",
+        "Conditions of authorisation and compliance obligations",
+        "Validity period and renewal terms"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": ["Technical parameters schedule", "Conditions of authorisation"]
+    },
+    "sample": {
+      "ref": "NCA/ENG/BRC/FA/2026/014",
+      "date": "3rd March, 2026",
+      "recipientLines": ["The General Manager", "Kasapa Broadcasting Ltd.", "P. O. Box AN 2201", "Achimota, Accra"],
+      "salutation": "Dear Sir,",
+      "subject": "AUTHORISATION TO OPERATE ON 98.5 MHZ — KASAPA FM",
+      "body": [
+        "We refer to your application dated 14th January, 2026 for authorisation to establish and operate an FM broadcasting station in the Greater Accra Region.",
+        "We write to inform you that the National Communications Authority (NCA) has approved your application and hereby authorises Kasapa Broadcasting Ltd. to operate on the frequency 98.5 MHz, Accra and its environs, with effect from the date of this letter.",
+        "The station shall operate with an Effective Radiated Power (ERP) not exceeding **2 kW**, antenna height above average terrain of **60 metres**, and vertical polarisation, as approved by the Authority.",
+        "This authorisation is subject to the general conditions of frequency authorisation issued by the Authority, and to strict compliance with the technical parameters stated above. Any variation must be approved in writing before implementation.",
+        "This authorisation is valid for a period of **five (5) years** from the date of this letter, and is renewable upon application not later than ninety (90) days before expiry."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*eng/brc/kof*",
+      "attachmentNote": "Att."
+    }
+  },
+  {
+    "id": "l02",
+    "title": "Interference Resolution Notice",
+    "division": "bmc",
+    "description": "Directs an operator to remedy confirmed harmful interference within a stated period.",
+    "approverId": "p03",
+    "approvalChain": ["p05", "p03"],
+    "refFormat": "NCA/ENG/BMC/IRN/YYYY/###",
+    "format": {
+      "salutation": "Dear Sir/Madam,",
+      "subject": "NOTICE OF HARMFUL INTERFERENCE ON [FREQUENCY] MHZ",
+      "bodyOutline": [
+        "Description of the interference observed, with dates and measurements",
+        "Reference to the monitoring evidence (incident number)",
+        "Regulatory basis for the direction",
+        "Required remedial action and deadline (typically 14 days)",
+        "Consequences of non-compliance"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": ["Measurement report extract"]
+    },
+    "sample": {
+      "ref": "NCA/ENG/BMC/IRN/2026/007",
+      "date": "18th February, 2026",
+      "recipientLines": ["The Chief Executive Officer", "Comet Cellular Networks Ltd.", "P. O. Box CT 884", "Cantonments, Accra"],
+      "salutation": "Dear Sir/Madam,",
+      "subject": "NOTICE OF HARMFUL INTERFERENCE ON 1842.5 MHZ",
+      "body": [
+        "Monitoring conducted by the Broadcast Monitoring Centre on 12th and 13th February, 2026 detected harmful interference on the frequency 1842.5 MHz, affecting mobile network services in the Tema industrial area.",
+        "This is with reference to incident **BMC-INT-2026-031** logged by our monitoring officers, in which the interfering emission was traced to equipment operating from your base station facility at Tema Community 4.",
+        "By this notice, you are directed to identify and remedy the source of the interference within **fourteen (14) days** from the date of this letter.",
+        "Failure to comply within the stated period may result in enforcement action under the Electronic Communications Act, 2008 (Act 775), including suspension of the affected equipment's authorisation."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*eng/bmc/ysd*",
+      "attachmentNote": "Att."
+    }
+  },
+  {
+    "id": "l03",
+    "title": "ISP Registration Confirmation",
+    "division": "mobile",
+    "description": "Confirms registration of a new Internet Service Provider and states the licence conditions.",
+    "approverId": "p02",
+    "approvalChain": ["p06", "p03", "p02"],
+    "refFormat": "NCA/ISP/YYYY/###",
+    "officialUrl": "https://nca.org.gh/internet-public-data-service-provision/",
+    "format": {
+      "salutation": "Dear Sir/Madam,",
+      "subject": "CONFIRMATION OF REGISTRATION — [OPERATOR NAME]",
+      "bodyOutline": [
+        "Reference to the application and evaluation outcome",
+        "Registration number and effective date",
+        "Class of licence and authorised services",
+        "Fees, reporting obligations and QoS requirements",
+        "Conditions attached to the registration"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": ["Schedule of licence conditions", "Fee schedule"]
+    },
+    "sample": {
+      "ref": "NCA/ISP/2026/056",
+      "date": "27th January, 2026",
+      "recipientLines": ["The Managing Director", "Savannah Wireless Ltd.", "P. O. Box TL 220", "Tamale"],
+      "salutation": "Dear Sir,",
+      "subject": "CONFIRMATION OF REGISTRATION — SAVANNAH WIRELESS LTD.",
+      "body": [
+        "We refer to your application dated 19th January, 2026 for registration as an Internet Service Provider, and the subsequent evaluation of your technical and business proposal by this Authority.",
+        "We are pleased to inform you that your application has been approved. Savannah Wireless Ltd. is hereby registered under registration number **NCA/ISP/2026/056**, effective the date of this letter.",
+        "Your registration is a Class II Internet Service Provider licence, authorising the provision of fixed wireless broadband services within the Northern, North East and Savannah Regions.",
+        "You are required to pay the prescribed annual regulatory fee, submit quarterly subscriber and quality-of-service reports, and comply with all conditions set out in the attached schedule of licence conditions."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*eng/mob/abo*",
+      "attachmentNote": "Att."
+    }
+  },
+  {
+    "id": "l04",
+    "title": "Earth Station Licence Offer",
+    "division": "satellite",
+    "description": "Offers an earth station licence subject to coordination conditions and payment of fees.",
+    "approverId": "p01",
+    "approvalChain": ["p08", "p03", "p02", "p01"],
+    "refFormat": "NCA/SAT/ES/YYYY/###",
+    "officialUrl": "https://nca.org.gh/satellite-licences/",
+    "format": {
+      "salutation": "Dear Sir/Madam,",
+      "subject": "OFFER OF EARTH STATION LICENCE — [SITE NAME]",
+      "bodyOutline": [
+        "Reference to the application and coordination outcome",
+        "Licensed frequencies, satellite, and orbital slot",
+        "Coordination conditions and power limits",
+        "Applicable fees and acceptance deadline",
+        "Validity and renewal terms"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": ["Coordination conditions annex", "Fee invoice"]
+    },
+    "sample": {
+      "ref": "NCA/SAT/ES/2026/009",
+      "date": "16th January, 2026",
+      "recipientLines": ["The Managing Director", "Skylink Teleport Services Ltd.", "P. O. Box KIA 445", "Airport Residential Area, Accra"],
+      "salutation": "Dear Sir,",
+      "subject": "OFFER OF EARTH STATION LICENCE — SKYLINK TELEPORT, PRAMPRAM",
+      "body": [
+        "We refer to your application dated 5th December, 2025 for an earth station licence to operate a satellite ground station at Prampram, and to the coordination report subsequently issued by this Authority.",
+        "We are pleased to offer you a licence to operate an earth station at the above location, on the frequencies **6425–6725 MHz (uplink)** and **3625–3925 MHz (downlink)**, coordinated with **NSS-12 at 57°E**.",
+        "This offer is subject to the coordination conditions and power limits set out in the attached annex, and to payment of the prescribed licence fee within **thirty (30) days** of the date of this letter.",
+        "This licence, once accepted, shall be valid for a period of **ten (10) years**, renewable in accordance with the Authority's licensing guidelines."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*eng/sat/adk*",
+      "attachmentNote": "Att."
+    }
+  },
+  {
+    "id": "l05",
+    "title": "Outage Explanation Request",
+    "division": "mobile",
+    "description": "Requests a formal explanation from an operator following a significant service outage.",
+    "approverId": "p03",
+    "approvalChain": ["p06", "p03"],
+    "refFormat": "NCA/ENG/MOB/OER/YYYY/###",
+    "officialUrl": "https://nca.org.gh/mobile-cellular/",
+    "format": {
+      "salutation": "Dear Sir/Madam,",
+      "subject": "REQUEST FOR EXPLANATION — SERVICE OUTAGE OF [DATE]",
+      "bodyOutline": [
+        "Description of the outage as observed or reported",
+        "Regulatory basis for the request",
+        "Information required: root cause, duration, affected subscribers, remediation",
+        "Response deadline (typically 7 working days)"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": []
+    },
+    "sample": {
+      "ref": "NCA/ENG/MOB/OER/2026/018",
+      "date": "6th March, 2026",
+      "recipientLines": ["The Chief Technical Officer", "Comet Cellular Networks Ltd.", "P. O. Box CT 884", "Cantonments, Accra"],
+      "salutation": "Dear Sir/Madam,",
+      "subject": "REQUEST FOR EXPLANATION — SERVICE OUTAGE OF 4TH MARCH, 2026",
+      "body": [
+        "The Authority received multiple subscriber complaints of a network outage affecting voice and data services in the Kumasi metropolis on 4th March, 2026, between approximately **09:00 and 14:30 GMT**.",
+        "Pursuant to your quality-of-service obligations under your operating licence, you are required to submit a written explanation addressing the root cause of the outage, its duration, the number of subscribers affected, and the remedial measures taken or proposed.",
+        "Your response should reach this office not later than **seven (7) working days** from the date of this letter."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*eng/mob/ena*"
+    }
+  },
+  {
+    "id": "l06",
+    "title": "Compliance Inspection Notification",
+    "division": "broadcasting",
+    "description": "Notifies a station of a scheduled technical compliance inspection.",
+    "approverId": "p07",
+    "approvalChain": ["p07"],
+    "refFormat": "NCA/ENG/BRC/CIN/YYYY/###",
+    "officialUrl": "https://nca.org.gh/radio-fm-broadcasting/",
+    "format": {
+      "salutation": "Dear Sir/Madam,",
+      "subject": "NOTIFICATION OF TECHNICAL COMPLIANCE INSPECTION",
+      "bodyOutline": [
+        "Inspection window and scope",
+        "Records and access to be made available",
+        "Names of the inspection team",
+        "Contact for rescheduling requests"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": ["Inspection checklist"]
+    },
+    "sample": {
+      "ref": "NCA/ENG/BRC/CIN/2026/022",
+      "date": "9th March, 2026",
+      "recipientLines": ["The Station Manager", "Kasapa Broadcasting Ltd.", "P. O. Box AN 2201", "Achimota, Accra"],
+      "salutation": "Dear Sir/Madam,",
+      "subject": "NOTIFICATION OF TECHNICAL COMPLIANCE INSPECTION",
+      "body": [
+        "This is to notify you that officials of the National Communications Authority will conduct a routine technical compliance inspection of your broadcasting facilities on 17th March, 2026, between **10:00 and 13:00 GMT**.",
+        "The inspection will cover verification of transmitter power, frequency accuracy, antenna system integrity, and general compliance with the technical parameters stated in your authorisation.",
+        "Kindly ensure that station records, including the equipment logbook and previous inspection reports, are made available to the inspection team, and that a technically competent staff member is present throughout the visit.",
+        "The inspection team will comprise **Ing. Kofi Asante-Frimpong** and one Engineering Officer from the Broadcasting Services Division. Any request to reschedule should be directed to this office at least three (3) working days in advance."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*eng/brc/naa*",
+      "attachmentNote": "Att."
+    }
+  },
+  {
+    "id": "l07",
+    "title": "Extension of Time to Commence Operations",
+    "division": "broadcasting",
+    "description": "Grants a licensed broadcaster additional time to commence transmission, typically subject to payment of a penalty fee.",
+    "approverId": "p01",
+    "approvalChain": ["p07", "p03", "p02", "p01"],
+    "refFormat": "NCA/FM/###/YY",
+    "officialUrl": "https://nca.org.gh/radio-fm-broadcasting/",
+    "format": {
+      "salutation": "Dear Sir,",
+      "subject": "REQUEST FOR EXTENSION OF TIME TO START OPERATIONS",
+      "bodyOutline": [
+        "Acknowledgement of the request and date received",
+        "Approval of the extension with the new commencement deadline",
+        "Penalty payable and reference to the attached invoice",
+        "Deadline to settle penalty and outstanding regulatory fees",
+        "Requirement to invite the Authority for a pre-commissioning inspection"
+      ],
+      "signoff": "Yours faithfully,",
+      "enclosures": ["Invoice"]
+    },
+    "sample": {
+      "ref": "NCA/FM/307/85",
+      "date": "22nd May, 2024",
+      "recipientLines": ["The General Manager", "Life Radio Ghana Ltd.", "P. O. Box 19", "Sefwi Juaboso", "Western North Region"],
+      "salutation": "Dear Sir,",
+      "subject": "REQUEST FOR EXTENSION OF TIME TO START OPERATIONS",
+      "body": [
+        "We acknowledge your letter dated 6th May, 2024 on the above subject requesting for extension of time to commence operations of the FM Broadcasting Radio Station.",
+        "Please be informed that the National Communications Authority (NCA) has favourably considered your request for extension to commence operations by 22nd May, 2025 subject to payment of penalty of **Three Thousand Ghana Cedis (GH₵3,000.00)** per the attached invoice numbered **14234**.",
+        "Life Radio Ghana Limited is therefore required to pay the said penalty and settle the Annual Spectrum and Regulatory fee within thirty (30) days from the date of this letter, i.e. **on or before 21st June 2024.**",
+        "Life Radio Ghana Limited is requested to invite officials of the NCA for inspection of your broadcasting facilities before commencement of operations.",
+        "Please take note and be guided accordingly."
+      ],
+      "signoff": "Yours faithfully,",
+      "typistCode": "*ekeb/jja/kab/bao/eyf/eoyb/ja*",
+      "attachmentNote": "Att."
+    }
+  }
+]

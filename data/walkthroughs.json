@@ -1,0 +1,105 @@
+[
+  {
+    "id": "w01",
+    "division": "bmc",
+    "title": "Start of shift at the BMC",
+    "duration": "≈ 20 min",
+    "updated": "2026-06-12",
+    "tags": ["shift", "handover", "monitoring"],
+    "summary": "The full handover routine for an incoming monitoring officer, from logbook to rack checks.",
+    "steps": [
+      { "title": "Sign the shift logbook", "detail": "Record your name, staff ID and shift code (A/B/C) in the physical logbook at the console desk. Note the exact takeover time." },
+      { "title": "Take the verbal handover brief", "detail": "The outgoing officer walks you through open incidents, stations flagged overnight, and any equipment behaving abnormally. Do not let them leave before this brief." },
+      { "title": "Review the previous shift's incident log", "detail": "Open the incident register and read every entry from the last 8 hours. Flag anything marked UNRESOLVED for follow-up in your shift." },
+      { "title": "Verify the monitoring rack status", "detail": "Walk the rack: all receivers powered, no red LEDs, antenna switch positions matching the assignment sheet. Log any deviation immediately." },
+      { "title": "Check the recording servers", "detail": "Confirm both logging servers show green in the dashboard and free storage is above 15%. If storage is low, escalate to the Head of BMC before purging anything." },
+      { "title": "Spot-check spectrum analyser calibration", "detail": "Tune to the 100.0 MHz reference carrier and confirm level reads within ±2 dB of the calibration sheet value taped to the analyser." },
+      { "title": "Confirm your channel assignments", "detail": "Check the duty roster for the FM/TV channels assigned to your seat this shift and load the matching preset bank on your receiver." },
+      { "title": "Post your on-duty status", "detail": "Update the duty board and the group channel so the Head of BMC and the standby engineer know who holds the console." }
+    ]
+  },
+  {
+    "id": "w02",
+    "division": "bmc",
+    "title": "Logging an interference complaint",
+    "duration": "≈ 15 min",
+    "updated": "2026-05-30",
+    "tags": ["interference", "complaint", "incident"],
+    "summary": "How to capture, verify and register a reported case of harmful interference.",
+    "steps": [
+      { "title": "Capture the complaint details", "detail": "Record the complainant, affected frequency, location, and time first observed. Use the standard intake form — never loose notes." },
+      { "title": "Verify on the monitoring receivers", "detail": "Tune to the affected frequency and attempt to observe the interference yourself. Save an IQ recording and a spectrum screenshot as evidence." },
+      { "title": "Classify the interference", "detail": "Mark it co-channel, adjacent-channel, spurious, or intermodulation based on what you observe. When unsure, mark UNCLASSIFIED and note why." },
+      { "title": "Open an incident in the register", "detail": "Assign the next incident number in the format BMC-INT-YYYY-###. Attach the recording and screenshot." },
+      { "title": "Notify the Head of BMC", "detail": "Any confirmed harmful interference is escalated the same shift — do not hold it for the morning brief." },
+      { "title": "Schedule a direction-finding run if unresolved", "detail": "If the source is not obvious, request a mobile DF unit through the Head of BMC and log the request number against the incident." }
+    ]
+  },
+  {
+    "id": "w03",
+    "division": "broadcasting",
+    "title": "Adding a new FM station to the register",
+    "duration": "≈ 30 min",
+    "updated": "2026-06-02",
+    "tags": ["station", "authorisation", "register"],
+    "summary": "Registering a newly authorised FM station so it enters monitoring and compliance cycles.",
+    "steps": [
+      { "title": "Confirm the authorisation is signed", "detail": "Locate the signed Frequency Authorisation letter in the records system. No register entry is created from a draft or offer letter." },
+      { "title": "Create the station record", "detail": "Enter call sign, assigned frequency, licensed ERP, transmitter site coordinates, and licensee details exactly as they appear on the authorisation." },
+      { "title": "Attach the technical parameters", "detail": "Upload the approved antenna pattern, height above average terrain, and transmitter type-approval reference." },
+      { "title": "Set the compliance schedule", "detail": "New stations get a first compliance measurement within 90 days of on-air date. Add it to the inspection calendar." },
+      { "title": "Notify the BMC", "detail": "Send the station record link to the BMC so the frequency is added to the monitoring preset banks before the on-air date." },
+      { "title": "Confirm the register entry", "detail": "Have a second officer verify the entry against the authorisation letter and countersign the register log." }
+    ]
+  },
+  {
+    "id": "w04",
+    "division": "mobile",
+    "title": "Registering a new ISP or network operator",
+    "duration": "≈ 45 min",
+    "updated": "2026-04-18",
+    "tags": ["isp", "operator", "registration"],
+    "summary": "Processing a new Internet Service Provider from application to entry in the operator register.",
+    "steps": [
+      { "title": "Check the application pack is complete", "detail": "Business registration certificate, tax clearance, network architecture description, and proof of application fee. Return incomplete packs within 5 working days." },
+      { "title": "Review the technical plan", "detail": "Verify the proposed spectrum use, interconnection points, and coverage plan are consistent with the licence class applied for." },
+      { "title": "Run the due-diligence checks", "detail": "Confirm directors against the sanctions and prior-revocation lists. Record the check date in the file." },
+      { "title": "Draft the evaluation memo", "detail": "Summarise findings and a clear recommendation. The memo goes to the Head of Mobile & Wireless for review before Director level." },
+      { "title": "Route for approval", "detail": "Approval chain: Head of Mobile & Wireless → Deputy Director, Engineering → Director, Engineering. Track it in the approvals register." },
+      { "title": "Issue the registration and enter the register", "detail": "On approval, generate the registration number in the format NCA/ISP/YYYY/### and create the operator record with all licence conditions attached." }
+    ]
+  },
+  {
+    "id": "w05",
+    "division": "satellite",
+    "title": "Processing an earth station licence application",
+    "duration": "≈ 40 min",
+    "updated": "2026-03-27",
+    "tags": ["earth station", "licence", "coordination"],
+    "summary": "From application receipt to coordination check and licence offer for a new earth station.",
+    "steps": [
+      { "title": "Log the application", "detail": "Assign a file number in the format NCA/SAT/ES/YYYY/### and acknowledge receipt to the applicant within 3 working days." },
+      { "title": "Validate the technical annex", "detail": "Check antenna diameter, transmit/receive frequencies, EIRP, and the target satellite's orbital slot against the ITU filing." },
+      { "title": "Run the domestic coordination check", "detail": "Screen the proposed frequencies against terrestrial fixed links and other earth stations within the coordination contour." },
+      { "title": "Request clarifications if needed", "detail": "All technical queries go in a single consolidated letter — avoid piecemeal back-and-forth with the applicant." },
+      { "title": "Prepare the licence offer", "detail": "Draft the Earth Station Licence Offer using the standard template, including all coordination conditions." },
+      { "title": "Route to the Director General", "detail": "Earth station licence offers are signed at DG level. Route through Director, Engineering with the coordination report attached." }
+    ]
+  },
+  {
+    "id": "w06",
+    "division": "mobile",
+    "title": "Preparing a quarterly QoS drive test",
+    "duration": "≈ 25 min",
+    "updated": "2026-06-20",
+    "tags": ["qos", "drive test", "measurement"],
+    "summary": "Planning and equipment checks before a quality-of-service drive test campaign.",
+    "steps": [
+      { "title": "Confirm the route plan", "detail": "Use the approved quarterly route set. Any route change needs sign-off from the Head of Mobile & Wireless before the campaign starts." },
+      { "title": "Reserve the drive test vehicle and kit", "detail": "Book the vehicle, scanner, and test handsets at least one week ahead. Confirm SIMs for all operators under test are active." },
+      { "title": "Calibrate the measurement kit", "detail": "Run the pre-campaign calibration script and file the calibration report — results without it are not admissible in enforcement." },
+      { "title": "Notify operators of the campaign window", "detail": "Send the standard notification letter giving the campaign window, but never the exact routes or dates." },
+      { "title": "Brief the field team", "detail": "Cover safety, logging discipline, and what counts as an anomaly worth a manual marker during the drive." }
+    ]
+  }
+]

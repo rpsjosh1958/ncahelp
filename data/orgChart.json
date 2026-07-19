@@ -1,0 +1,16 @@
+{
+  "people": [
+    { "id": "p01", "name": "Rev. Ing. Edmund Yirenkyi Fianko", "title": "Director General", "division": null, "reportsTo": null, "rank": 1, "signs": "Authorisations, licence offers, and all external commitments above Director level." },
+    { "id": "p02", "name": "Ing. Kwabena Osei-Bonsu", "title": "Director, Engineering", "division": null, "reportsTo": "p01", "rank": 2, "signs": "Registrations, technical directives, and recommendations to the DG." },
+    { "id": "p03", "name": "Ing. Efua Serwaa Ampofo", "title": "Deputy Director, Engineering", "division": null, "reportsTo": "p02", "rank": 3, "signs": "Interference notices, outage requests, and routine operator correspondence." },
+    { "id": "p05", "name": "Ing. Yaw Boateng-Darko", "title": "Head, Broadcast Monitoring Centre", "division": "bmc", "reportsTo": "p03", "rank": 4, "signs": "Shift escalations, monitoring reports, and DF unit requests." },
+    { "id": "p06", "name": "Ing. Abena Nyarko-Owusu", "title": "Head, Mobile & Wireless Networks", "division": "mobile", "reportsTo": "p03", "rank": 4, "signs": "Evaluation memos, QoS campaign plans, and drive-test reports." },
+    { "id": "p07", "name": "Ing. Kofi Asante-Frimpong", "title": "Head, Broadcasting Services", "division": "broadcasting", "reportsTo": "p03", "rank": 4, "signs": "Inspection notifications and station register certifications." },
+    { "id": "p08", "name": "Ing. Adwoa Konadu-Sarpong", "title": "Head, Satellite & Space Services", "division": "satellite", "reportsTo": "p03", "rank": 4, "signs": "Coordination reports and ITU filing correspondence." },
+    { "id": "p09", "name": "Kojo Antwi-Mensah", "title": "Senior Monitoring Officer", "division": "bmc", "reportsTo": "p05", "rank": 5, "signs": null },
+    { "id": "p10", "name": "Esi Baiden-Quaye", "title": "Network Engineer", "division": "mobile", "reportsTo": "p06", "rank": 5, "signs": null },
+    { "id": "p11", "name": "Nii Armah Tetteh", "title": "Broadcast Engineer", "division": "broadcasting", "reportsTo": "p07", "rank": 5, "signs": null },
+    { "id": "p12", "name": "Akosua Dufie-Boakye", "title": "Satellite Systems Engineer", "division": "satellite", "reportsTo": "p08", "rank": 5, "signs": null }
+  ],
+  "approvalNotes": "Approval flows upward through division head → Deputy Director → Director → Director General. Each letter template declares its own chain; the chain here is the default escalation path."
+}
